@@ -1,7 +1,6 @@
 # klipper-precise-eta
-Includes print preparation procedures in the print progress estimation, and gives an overall percentage for accurate ETA.
-
-
+Includes print preparation procedures in the print progress estimation, and gives an overall percentage for accurate ETA.\
+No modules or Klipper folder modifications needed, it is just a macro.
 
 - samples history print preparation procedure' time and takes average
 - allow multiple stages of print preparation procedure to add granularity to the progress display while preparing
