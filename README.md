@@ -16,4 +16,5 @@ Records how long each stage of the PRINT_START macro takes to get an estimation,
 
 ### Go to
 [Function](function.md)\
-[Configuration](configuration.md)
+[Configuration](configuration.md)\
+[Usage](usage.md)
