@@ -7,6 +7,25 @@ No modules or Klipper folder modifications needed, it is just a macro.
 - allow enable/disable stages conditionally
 - samples history slicer estimate to actual print time-ratio
 
+Estimate: 20:20:22\
+![Screenshot 2024-08-15 192007](https://github.com/user-attachments/assets/e0cd865c-e55b-4b28-bc3b-74cfcfd0166c)\
+Estimate: 20:19:50\
+![Screenshot 2024-08-15 192101](https://github.com/user-attachments/assets/d3bbda9c-2771-4568-87e9-5261d0c3dcb9)\
+Estimate: 20:20:15\
+![Screenshot 2024-08-15 192225](https://github.com/user-attachments/assets/577a53d5-7324-4df6-b53d-b3ba830bef97)\
+Estimate: 20:20:41\
+![Screenshot 2024-08-15 194303](https://github.com/user-attachments/assets/4185c5d6-6e9c-45e3-ae0e-bd51ae0e3992)\
+Estimate: 20:19:59\
+![Screenshot 2024-08-15 213434](https://github.com/user-attachments/assets/ac5acee2-39c6-4afe-89ab-e3eb0c868674)\
+Actual: 20:19:59\
+![Screenshot 2024-08-15 213425](https://github.com/user-attachments/assets/d8c4d349-42fb-4da3-bd1e-186d9f3a8508)\
+
+The slicer estimate on average overestimates by 1.425-fold:\
+![image](https://github.com/user-attachments/assets/b2604729-6531-419c-a228-3e65aad52b7e)
+
+This plugin takes historical data and live data from each print and gives a relatively accurate estimate (off by one minute is expected as the slicer only provides the estimated time in minutes via the M73 gcode, the metadata is not accessible through klipper)\
+And unfortunately, the local time is not accessible via klipper as well, so I will add a command: `it_is t214449` to tell the system that it is 21:44:49 at the time the command is sent, for example.
+
 ![Screenshot 2024-07-25 154802](https://github.com/user-attachments/assets/6888220a-1bc7-47d5-8a0c-c0bcf74d329c)
 
 Orange is the real time print progress, red is the estimated total time, which its flatness directly reflects the accuracy of the estimations. \
