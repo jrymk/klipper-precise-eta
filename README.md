@@ -1,4 +1,5 @@
 # klipper-precise-eta
+![image](https://github.com/user-attachments/assets/190ae8e9-48b9-4c8f-abe2-1c9cded2dcac)
 Includes print preparation procedures in the print progress estimation, and gives an overall percentage for accurate ETA.\
 No modules or Klipper folder modifications needed, it is just a macro.
 
@@ -24,7 +25,11 @@ The slicer estimate on average overestimates by 1.425-fold:\
 ![image](https://github.com/user-attachments/assets/b2604729-6531-419c-a228-3e65aad52b7e)
 
 This plugin takes historical data and live data from each print and gives a relatively accurate estimate (off by one minute is expected as the slicer only provides the estimated time in minutes via the M73 gcode, the metadata is not accessible through klipper)\
-And unfortunately, the local time is not accessible via klipper as well, so I will add a command: `it_is t214449` to tell the system that it is 21:44:49 at the time the command is sent, for example.
+And unfortunately, the local time is not accessible via klipper as well, so you may use the following command to tell klipper what time it is:\
+![image](https://github.com/user-attachments/assets/add889cd-80d1-4121-a523-44b3adbf2d51)\
+And the precise percentage, remaining time, and the ETA will be shown in the "display_status" section, updated every second during printing. (and you can see how rediculous the estimates fluidd shows when the percentage is small)
+![image](https://github.com/user-attachments/assets/031835f5-0aac-4e60-ad11-37b37317b68b)
+
 
 ![Screenshot 2024-07-25 154802](https://github.com/user-attachments/assets/6888220a-1bc7-47d5-8a0c-c0bcf74d329c)
 
