@@ -1,5 +1,5 @@
 ## Configuration
-1. Include the provided config file, or paste it in whatever config file you want.
+1. Include the [provided config file](precise_eta.cfg), or paste it in whatever config file you want.
 2. Enable `[save_variables]` [klipper docs](https://www.klipper3d.org/Config_Reference.html#save_variables)
 3. Add the following to the start of the `PRINT_START` macro
 ```cfg
