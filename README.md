@@ -8,6 +8,9 @@ Just started actually printing: \
 ![image](https://github.com/user-attachments/assets/190ae8e9-48b9-4c8f-abe2-1c9cded2dcac)\
 10% done: \
 ![image](https://github.com/user-attachments/assets/54113269-0783-4629-b613-33e768ea1276)\
+25% done: \
+![image](https://github.com/user-attachments/assets/c85768a2-73bc-4a95-a5a7-268df7fa4e3e)
+
 
 You can see print progress even during the PRINT_START macro, and see how stable and accurate the ETA is (depends on how consistently your slicer estimates the print time)
 
