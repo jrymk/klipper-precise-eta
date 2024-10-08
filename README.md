@@ -1,6 +1,11 @@
 # klipper-precise-eta
 
-### What it does?
+## How accurate is it?
+
+![image](https://github.com/user-attachments/assets/bce2a1a5-3214-481a-b5dc-1f566ad44380)
+
+
+## What it does?
 
 During PRINT_START macro:\
 ![image](https://github.com/user-attachments/assets/031835f5-0aac-4e60-ad11-37b37317b68b)\
